@@ -1,6 +1,5 @@
 .PHONY: build
 build:
-		@echo "Building with CGO_ENABLED=1"
 		$(SET_ENV) go build ./cmd/apiserver
 
 .PHONY: test
